@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+ultralytics
+torch
+torchvision
+opencv-python
+streamlit
+plotly
+pandas
+mediapipe
+deep-sort-realtime
