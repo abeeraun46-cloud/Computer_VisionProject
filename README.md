@@ -7,7 +7,7 @@
 ### 📽️ تحليل الفيديو الذكي (Video Analysis Flow)
 | الواجهة بانتظار الرفع | النظام أثناء التحليل الفعلي |
 | :---: | :---: |
-| ![Waiting](screenshots/1000015769.jpg) | ![Live Analytics](screenshots/video_analysis.png) |
+| ![Waiting](screenshots/waiting.png) | ![Live Analytics](screenshots/video_analysis.png) |
 
 ### 🧩 الميزات الإضافية (Core Modules)
 | 📱 الكشف عن الهاتف | 🧩 تقسيم الصور | 📊 تقييم النموذج |
@@ -17,6 +17,7 @@
 | 🖼️ تصنيف الصور | 🏠 الواجهة الرئيسية |
 | :---: | :---: |
 | ![Classification](screenshots/classification.png) | ![Main](screenshots/main.png) |
+
 
 ## ✨ الميزات التقنية (Core Features)
 
