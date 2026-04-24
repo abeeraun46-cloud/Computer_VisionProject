@@ -7,7 +7,7 @@
 ### 📽️ تحليل الفيديو الذكي (Video Analysis Flow)
 | الواجهة بانتظار الرفع | النظام أثناء التحليل الفعلي |
 | :---: | :---: |
-| ![Waiting](screenshots/waiting.png) | ![Live Analytics](screenshots/video_analysis.png) |
+| ![Waiting](screenshots/waiting.png) | !![Live Analytics](https://raw.githubusercontent.com/abeeraun/Computer_VisionProject/master/screenshots/video_analysis.png) |
 
 ### 🧩 الميزات الإضافية (Core Modules)
 | 📱 الكشف عن الهاتف | 🧩 تقسيم الصور | 📊 تقييم النموذج |
