@@ -17,7 +17,7 @@ st.markdown("""
 # تحميل النموذج المدرب
 @st.cache_resource
 def load_model():
-    return YOLO(r"C:\Users\lenovo\Desktop\مشروع نهائيCOM VS\runs\classify\train2\weights\best.pt")
+    return YOLO(r"D:\جامعة\سنة ثالثة\رؤية حاسوب\مشروع نهائيCOM VS\runs\classify\train2\weights\best.pt")
 
 model = load_model()
 

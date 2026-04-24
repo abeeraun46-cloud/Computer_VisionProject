@@ -1,19 +1,32 @@
-# Crowd Detection & Monitoring System (YOLOv8)
+# 🚀 Smart Vision Dashboard (AI Multi-Tool)
 
-## 📌 Project Overview
-This project is a Computer Vision system designed to monitor and manage crowding in retail shops or public spaces. It uses **YOLOv8** to detect people in real-time and triggers an alert based on specific spatial constraints.
+نظام متكامل يعتمد على الذكاء الاصطناعي (**YOLOv8**) لتحليل الفيديوهات والصور وتتبع السلوك البشري بدقة عالية، مع واجهة مستخدم تفاعلية باستخدام **Streamlit**.
 
-## 🚀 Key Features
-* **Real-time Detection:** High-speed person detection using YOLOv8.
-* **Crowd Alert Logic:** Implemented a "Virtual Line/Threshold" system that triggers a notification when more than two people occupy a specific area.
-* **Spatial Monitoring:** Analyzes density within the camera frame to manage occupancy.
+## 📸 معرض المشروع (Project Gallery)
 
-## 📂 Project Structure
-* `backend/`: Logic for handling video streams and alert triggers.
-* `yolov8n.pt`: Pre-trained weights used for person detection.
-* `train_model.py`: Script used for fine-tuning or running the inference.
+### 📽️ تحليل الفيديو الذكي (Video Analysis Flow)
+| الواجهة بانتظار الرفع | النظام أثناء التحليل الفعلي |
+| :---: | :---: |
+| ![Waiting](screenshots/1000015769.jpg) | ![Live Analytics](screenshots/video_analysis.png) |
 
-## 🛠️ Tools & Technologies
-* **Vision:** YOLOv8 (Ultralytics)
-* **Language:** Python
-* **Environment:** VS Code & OpenCV
+### 🧩 الميزات الإضافية (Core Modules)
+| 📱 الكشف عن الهاتف | 🧩 تقسيم الصور | 📊 تقييم النموذج |
+| :---: | :---: | :---: |
+| ![Phone Detection](screenshots/phone_detection.png) | ![Segmentation](screenshots/segmentation.png) | ![Evaluation](screenshots/evaluation.png) |
+
+| 🖼️ تصنيف الصور | 🏠 الواجهة الرئيسية |
+| :---: | :---: |
+| ![Classification](screenshots/classification.png) | ![Main](screenshots/main.png) |
+
+## ✨ الميزات التقنية (Core Features)
+
+* **Smart Crowd Analysis:** تحليل الحشود وتتبع عدد الأشخاص وتجاوز الخطوط في الوقت الفعلي.
+* **Phone Usage Detection:** نموذج مخصص للكشف عن وضعيات الإمساك بالهاتف المحمول.
+* **Instance Segmentation:** فصل الأجسام وتحديد حدودها بدقة (Pixel-level accuracy).
+* **Automated Evaluation:** عرض مقاييس الأداء (Performance Metrics) لكل نموذج.
+
+## 🛠️ الأدوات المستخدمة (Tech Stack)
+
+* **Deep Learning:** Ultralytics YOLOv8
+* **Web Interface:** Streamlit & HTML/CSS Custom UI
+* **Libraries:** OpenCV, PIL, Pandas, PyTorch
