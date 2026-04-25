@@ -10,7 +10,7 @@ An advanced AI-powered system built using **YOLOv8** for real-time video and ima
 
 | Waiting State | Live Analysis |
 | :---: | :---: |
-| ![Waiting](https://raw.githubusercontent.com/abeeraun/Computer_VisionProject/master/screenshots/waiting.png) | ![Live](https://raw.githubusercontent.com/USERNAME/REPO/master/screenshots/video_analysis.png) |
+| ![Waiting](screenshots/waiting.png) | ![Live](screenshots/video_analysis.png) |
 
 ---
 
@@ -18,13 +18,13 @@ An advanced AI-powered system built using **YOLOv8** for real-time video and ima
 
 | 📱 Phone Detection | 🧩 Segmentation | 📊 Evaluation |
 | :---: | :---: | :---: |
-| ![Phone](https://raw.githubusercontent.com/USERNAME/REPO/master/screenshots/phone_detection.png) | ![Segmentation](https://raw.githubusercontent.com/USERNAME/REPO/master/screenshots/segmentation.png) | ![Evaluation](https://raw.githubusercontent.com/USERNAME/REPO/master/screenshots/evaluation.png) |
+| ![Phone](screenshots/phone_detection.png) | ![Segmentation](screenshots/segmentation.png) | ![Evaluation](screenshots/evaluation.png) |
 
 ---
 
 | 🖼️ Classification | 🏠 Dashboard |
 | :---: | :---: |
-| ![Classification](https://raw.githubusercontent.com/USERNAME/REPO/master/screenshots/classification.png) | ![Main](https://raw.githubusercontent.com/USERNAME/REPO/master/screenshots/main.png) |
+| ![Classification](screenshots/classification.png) | ![Main](screenshots/main.png) |
 
 ---
 
@@ -57,3 +57,11 @@ An advanced AI-powered system built using **YOLOv8** for real-time video and ima
 
 ```bash
 pip install -r requirements.txt
+streamlit run app.py
+👩‍💻 Author
+
+Abeer Aun
+
+⭐ Notes
+
+This project demonstrates practical applications of Computer Vision and Deep Learning in real-world scenarios.
