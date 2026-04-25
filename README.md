@@ -1,33 +1,74 @@
 # 🚀 Smart Vision Dashboard (AI Multi-Tool)
 
-نظام متكامل يعتمد على الذكاء الاصطناعي (**YOLOv8**) لتحليل الفيديوهات والصور وتتبع السلوك البشري بدقة عالية، مع واجهة مستخدم تفاعلية باستخدام **Streamlit**.
+An advanced AI-powered system built using **YOLOv8** for real-time video and image analysis, focusing on human behavior understanding and smart visual analytics, with an interactive interface powered by **Streamlit**.
 
-## 📸 معرض المشروع (Project Gallery)
+---
 
-### 📽️ تحليل الفيديو الذكي (Video Analysis Flow)
-| الواجهة بانتظار الرفع | النظام أثناء التحليل الفعلي |
-| :---: | :---: |
-| ![Waiting](screenshots/waiting.png) | ![Live Analytics](screenshots/video_analysis.png) |
+## 📸 Project Gallery
 
-### 🧩 الميزات الإضافية (Core Modules)
-| 📱 الكشف عن الهاتف | 🧩 تقسيم الصور | 📊 تقييم النموذج |
-| :---: | :---: | :---: |
-| ![Phone Detection](screenshots/phone_detection.png) | ![Segmentation](screenshots/segmentation.png) | ![Evaluation](screenshots/evaluation.png) |
+### 📽️ Video Analysis Pipeline
 
-| 🖼️ تصنيف الصور | 🏠 الواجهة الرئيسية |
-| :---: | :---: |
+|            Waiting State            |              Live Analysis              |
+| :---------------------------------: | :-------------------------------------: |
+| ![Waiting](screenshots/waiting.png) | ![Live](screenshots/video_analysis.png) |
+
+### 🧩 Core Modules
+
+|             📱 Phone Detection            |                🧩 Segmentation                |               📊 Evaluation               |
+| :---------------------------------------: | :-------------------------------------------: | :---------------------------------------: |
+| ![Phone](screenshots/phone_detection.png) | ![Segmentation](screenshots/segmentation.png) | ![Evaluation](screenshots/evaluation.png) |
+
+|                 🖼️ Classification                |          🏠 Dashboard         |
+| :-----------------------------------------------: | :---------------------------: |
 | ![Classification](screenshots/classification.png) | ![Main](screenshots/main.png) |
 
+---
 
-## ✨ الميزات التقنية (Core Features)
+## ✨ Key Features
 
-* **Smart Crowd Analysis:** تحليل الحشود وتتبع عدد الأشخاص وتجاوز الخطوط في الوقت الفعلي.
-* **Phone Usage Detection:** نموذج مخصص للكشف عن وضعيات الإمساك بالهاتف المحمول.
-* **Instance Segmentation:** فصل الأجسام وتحديد حدودها بدقة (Pixel-level accuracy).
-* **Automated Evaluation:** عرض مقاييس الأداء (Performance Metrics) لكل نموذج.
+* **Real-time Crowd Analysis:** Detect and track people, including boundary crossing behavior
+* **Phone Usage Detection:** Custom-trained model to detect mobile phone usage
+* **Instance Segmentation:** Pixel-level object separation using deep learning
+* **Model Evaluation Dashboard:** Visual performance metrics for each model
 
-## 🛠️ الأدوات المستخدمة (Tech Stack)
+---
 
-* **Deep Learning:** Ultralytics YOLOv8
-* **Web Interface:** Streamlit & HTML/CSS Custom UI
-* **Libraries:** OpenCV, PIL, Pandas, PyTorch
+## 🛠️ Tech Stack
+
+* **Deep Learning:** YOLOv8 (Ultralytics)
+* **Framework:** PyTorch
+* **Interface:** Streamlit + Custom UI
+* **Libraries:** OpenCV, PIL, Pandas
+
+---
+
+## 🚀 How to Run
+
+```id="run01"
+pip install -r requirements.txt
+```
+
+```id="run02"
+streamlit run app.py
+```
+
+---
+
+## 📊 Use Cases
+
+* Smart surveillance systems
+* Behavior analysis
+* AI-based monitoring dashboards
+* Computer vision research projects
+
+---
+
+## 👩‍💻 Author
+
+Abeer Aun
+
+---
+
+## ⭐ Notes
+
+This project demonstrates practical applications of Computer Vision and Deep Learning in real-world scenarios.
